@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #bbb;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 1176px;
+    height: 599px;
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.talents-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 404px;
+    height: 162px;
+}
+
+.scriptorem {
+    height: 20px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #74C69D;
+    text-transform: uppercase;
+}
+
+.talents-title {
+    height: 50px;
+
+    font-family: 'Crimson Text', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.talents-description {
+    width: 404px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.talents-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 1176px;
+    height: 299px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 299px;
+    background: #fff;
+    box-shadow: 3px 4px 8px 1px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+}
+
+.card:nth-of-type(1) {
+    width: 279px;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 202px;
+    height: 260px;
+}
+
+.pfp {
+    width: 175px;
+    height: 175px;
+
+    border-radius: 100px;
+    border: 1px solid #000;
+}
+
+.person-name {
+    margin-right: auto;
+    font-family: 'Crimson Text', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #212529;
+}
+
+.major {
+    width: 202px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.talents-btn {
+    padding: 13px 33.5px 10px 32.5px;
+
+    background: #212529;
+    color: #fff;
+
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    transition: background 0.1s linear;
+}
+
+.talents-btn:hover {
+    background-color: #111314;
+}
+
+
+
+@media (max-width: 1200px) {
+    .team {
+        width: 980px;
+        height: 499px;
+    }
+
+    .talents-info {
+        width: 336px;
+        height: 125px;
+    }
+
+    .scriptorem {
+        font-size: 11px;
+    }
+
+    .talents-title {
+        font-size: 30px;
+    }
+
+    .talents-description {
+        font-size: 16px;
+    }
+
+    .talents-cards {
+        width: 980px;
+        height: 250px;
+    }
+
+    .card {
+        width: 210px;
+        height: 249px;
+    }
+
+    .card:nth-of-type(1) {
+        width: 232px;
+    }
+
+    .person-info {
+        width: 168px;
+        height: 217px;
+    }
+
+    .pfp {
+        width: 146px;
+        height: 146px;
+    }
+
+    .person-name {
+        font-size: 20px;
+    }
+
+    .major {
+        width: 168px;
+        font-size: 12px;
+    }
+
+    .talents-btn {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .team {
+        width: 837px;
+        height: 427px;
+    }
+
+    .talents-info {
+        width: 288px;
+        height: 96px;
+    }
+
+    .scriptorem {
+        font-size: 10px;
+    }
+
+    .talents-title {
+        font-size: 28px;
+    }
+
+    .talents-description {
+        font-size: 14px;
+    }
+
+    .talents-cards {
+        width: 837px;
+        height: 213px;
+    }
+
+    .card {
+        width: 184px;
+        height: 213px;
+    }
+
+    .card:nth-of-type(1) {
+        width: 198px;
+    }
+
+    .person-info {
+        width: 144px;
+        height: 187px;
+    }
+
+    .pfp {
+        width: 130px;
+        height: 130px;
+    }
+
+    .person-name {
+        font-size: 16px;
+    }
+
+    .major {
+        width: 144px;
+        font-size: 11px;
+    }
+
+    .talents-btn {
+        padding: 10px 31.5px 9px 30.5px;
+
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 568px) {
+    .team {
+        width: 508px;
+        height: 1703px;
+    }
+
+    .talents-info {
+        width: 309px;
+        height: 197px;
+    }
+
+    .scriptorem {}
+}
+
+
+
+@media (max-width: 375px) {
+    .team {
+        width: 335px;
+        height: 1601px;
+    }
+
+    .talents-info {
+        width: 335px;
+        height: 167px;
+    }
+
+    .scriptorem {
+        width: 61px;
+        height: 20px;
+
+        font-size: 16px;
+    }
+
+    .talents-title {
+        width: 124px;
+        height: 30px;
+
+        font-size: 23px;
+    }
+
+    .talents-description {
+        width: 335px;
+        height: 85px;
+
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .talents-cards {
+        display: flex;
+        flex-direction: column;
+        width: 279px;
+        height: 1301px;
+    }
+
+    .card {
+        width: 279px;
+        height: 299px;
+    }
+
+    .card:nth-of-type(1) {
+        width: 279px;
+    }
+
+    .person-info {
+        width: 202px;
+        height: 260px;
+    }
+
+    .pfp {
+        width: 175px;
+        height: 175px;
+    }
+
+    .person-name {
+        font-size: 24px;
+    }
+
+    .major {
+        width: 202px;
+
+        font-size: 15px;
+    }
+
+    .talents-btn {
+        padding: 13px 29.5px 10px 29.5px;
+    }
+}
