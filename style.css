@@ -265,15 +265,48 @@ body {
 @media (max-width: 568px) {
     .team {
         width: 508px;
-        height: 1703px;
+        height: 2263px;
     }
 
     .talents-info {
-        width: 309px;
-        height: 197px;
+        width: 508px;
+        height: 207px;
     }
 
-    .scriptorem {}
+    .scriptorem {
+        font-size: 20px;
+    }
+
+    .talents-title {
+        font-size: 31px;
+    }
+
+    .talents-description {
+        font-size: 27px;
+    }
+
+    .talents-cards {
+        display: flex;
+        flex-direction: column;
+
+        width: 382px;
+        height: 1893px;
+    }
+
+    .card {
+        width: 382px;
+        height: 443px;
+    }
+
+    .card:nth-of-type(1) {
+        width: 382px;
+        height: 443px;
+    }
+
+    .talents-btn {
+        padding: 14px 34px 11px 34px;
+        font-size: 20px;
+    }
 }
 
 
@@ -290,21 +323,18 @@ body {
     }
 
     .scriptorem {
-        width: 61px;
         height: 20px;
 
         font-size: 16px;
     }
 
     .talents-title {
-        width: 124px;
         height: 30px;
 
         font-size: 23px;
     }
 
     .talents-description {
-        width: 335px;
         height: 85px;
 
         font-size: 20px;
