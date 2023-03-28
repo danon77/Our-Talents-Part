@@ -289,17 +289,17 @@ body {
         display: flex;
         flex-direction: column;
 
-        width: 382px;
+        width: 402px;
         height: 1893px;
     }
 
     .card {
-        width: 382px;
+        width: 402px;
         height: 443px;
     }
 
     .card:nth-of-type(1) {
-        width: 382px;
+        width: 402px;
         height: 443px;
     }
 
