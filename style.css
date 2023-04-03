@@ -276,9 +276,19 @@ body {
     }
 
     .talents-cards {
-
+        flex-wrap: wrap;
+        width: 628px;
+        height: 700px;
 
         background: green;
+    }
+
+    .card {
+        width: 297px;
+        height: 327px;
+    }
+    .card:nth-of-type(1) {
+        width: 297px;
     }
 }
 
