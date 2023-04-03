@@ -258,20 +258,20 @@ body {
 @media (max-width: 768px) {
     .team {
         width: 698px;
-        height: 1249px;
+        height: 1199px;
     }
 
     .talents-info {
         width: 698px;
-        height: 227px;
+        height: 207px;
     }
 
     .scriptorem {
-        font-size: 29px;
+        font-size: 27px;
     }
 
     .talents-title {
-        font-size: 54px;
+        font-size: 51px;
     }
 
     .talents-description {
@@ -380,7 +380,7 @@ body {
     }
 
     .talents-btn {
-        padding: 14px 34px 11px 34px;
+        padding: 14px 34.5px 11px 34.5px;
         font-size: 20px;
     }
 }
@@ -431,6 +431,7 @@ body {
 
     .card:nth-of-type(1) {
         width: 279px;
+        height: 299px;
     }
 
     .person-info {
