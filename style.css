@@ -93,7 +93,7 @@ body {
     width: 175px;
     height: 175px;
 
-    border-radius: 100px;
+    border-radius: 100%;
     border: 1px solid #000;
 }
 
@@ -262,6 +262,28 @@ body {
 
 
 
+@media (max-width: 768px) {
+    .team {
+        width: 698px;
+        height: 1999px;
+    }
+
+    .talents-info {
+        width: 698px;
+        height: 377px;
+
+        background: red;
+    }
+
+    .talents-cards {
+
+
+        background: green;
+    }
+}
+
+
+
 @media (max-width: 568px) {
     .team {
         width: 508px;
@@ -301,6 +323,25 @@ body {
     .card:nth-of-type(1) {
         width: 402px;
         height: 443px;
+    }
+
+    .person-info {
+        width: 312px;
+        height: 403px;
+    }
+
+    .pfp {
+        width: 278px;
+        height: 278px;
+    }
+
+    .person-name {
+        font-size: 34px;
+    }
+
+    .major {
+        width: 312px;
+        font-size: 25px;
     }
 
     .talents-btn {
