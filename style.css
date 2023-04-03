@@ -29,10 +29,7 @@ body {
     height: 162px;
 }
 
-.scriptorem {
-    height: 20px;
-
-    font-family: 'Work Sans', sans-serif;
+.scriptorem {font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
     text-align: center;
@@ -42,16 +39,12 @@ body {
 }
 
 .talents-title {
-    height: 50px;
-
     font-family: 'Crimson Text', sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
 
 .talents-description {
-    width: 404px;
-
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -265,30 +258,62 @@ body {
 @media (max-width: 768px) {
     .team {
         width: 698px;
-        height: 1999px;
+        height: 1249px;
     }
 
     .talents-info {
         width: 698px;
-        height: 377px;
+        height: 227px;
+    }
 
-        background: red;
+    .scriptorem {
+        font-size: 29px;
+    }
+
+    .talents-title {
+        font-size: 54px;
+    }
+
+    .talents-description {
+        font-size: 27px;
     }
 
     .talents-cards {
         flex-wrap: wrap;
         width: 628px;
-        height: 700px;
-
-        background: green;
+        height: 748px;
     }
 
     .card {
         width: 297px;
-        height: 327px;
+        height: 347px;
     }
     .card:nth-of-type(1) {
         width: 297px;
+    }
+
+    .person-info {
+        width: 227px;
+        height: 307px;
+    }
+
+    .pfp {
+        width: 197px;
+        height: 197px;
+    }
+
+    .person-name {
+        font-size: 26px;
+    }
+
+    .major {
+        width: 227px;
+        font-size: 18px;
+    }
+
+    .talents-btn {
+        padding: 17px 39.5px 15px 38.5px;
+        font-size: 26px;
     }
 }
 
